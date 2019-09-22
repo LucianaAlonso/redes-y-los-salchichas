@@ -13,3 +13,6 @@ dns depto sistemas --> 192.168.145.69
 vid.com.ar web server --> 192.168.145.67
 DHCP Vid S.R.L --> 192.168.145.70
 SMTP server --> 192.168.145.68
+Web Server vid.com.ar - Prensa (HTTP) --> 192.168.145.71
+Web Server Prensa (HTTPS) --> 192.168.145.72
+Intranet Server --> 192.168.145.73

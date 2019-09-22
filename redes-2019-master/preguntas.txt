@@ -1,0 +1,8 @@
+Preguntas para cesar
+
+Si configuramos un servidor DHCP desde un segmento de red
+y alguna de las ips ya estan ocupadas (porque fueron config.
+de forma manual) el servidor tiene en cuenta esto? 
+Es decir intentara asignar un ip ya utilizada.
+
+tftp server, es necesario?  
