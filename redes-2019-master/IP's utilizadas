@@ -1,4 +1,4 @@
-RANGOS DE IP 
+﻿RANGOS DE IP 
  ( 192.168.145.64 – 192.168.145.127).
 
 
@@ -16,3 +16,4 @@ SMTP server --> 192.168.145.68
 Web Server vid.com.ar - Prensa (HTTP) --> 192.168.145.71
 Web Server Prensa (HTTPS) --> 192.168.145.72
 Intranet Server --> 192.168.145.73
+PC del sector Administrativo --> 192.168.145.74

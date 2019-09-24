@@ -6,3 +6,6 @@ de forma manual) el servidor tiene en cuenta esto?
 Es decir intentara asignar un ip ya utilizada.
 
 tftp server, es necesario?  
+
+
+El servidor https dedicado para el sector de prensa solo sera accedido por el sector de prensa?
