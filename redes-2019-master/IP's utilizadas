@@ -9,7 +9,6 @@ dns resolver --> 192.168.145.66
 root server --> 193.0.14.129
 .com.ar server --> 200.108.145.50
 edu.ar server --> 170.210.5.56
-dns depto sistemas --> 192.168.145.69
 vid.com.ar web server --> 192.168.145.67
 DHCP Vid S.R.L --> 192.168.145.70
 SMTP server --> 192.168.145.68
@@ -18,3 +17,7 @@ Web Server Prensa (HTTPS) --> 192.168.145.72
 Intranet Server --> 192.168.145.73
 PC del sector Administrativo --> 192.168.145.74
 Router wireless --> 192.168.145.75
+dns depto sistemas-primario --> 192.168.145.69
+dns depto sistemas-secundario --> 192.168.145.76
+dns depto prensa-primario --> 192.168.145.77
+dns depto prensa-secundario --> 192.168.145.78
