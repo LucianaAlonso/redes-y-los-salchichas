@@ -1,0 +1,69 @@
+piso 10
+
+10 racks y 100 servidores red: centro de datos 
+preguntar que son los 10 racks y los 100 servidores
+
+dpto de sistemas red: sistemas
+directorio red: gerencia
+depto prensa red: logistica
+depto de diseño red: logistica 
+dpto de impresion red: logistica
+dpto de contabilidad red: administracion
+
+piso 7
+
+gerentes red: gerencia
+depto de marketing red: gerencia
+factura y liquidacion red: administracion
+depto de RRHH red: administracion
+
+piso 2
+
+depto de mantenimiento red: logistica
+depto de compras red: administracion
+
+piso 1 
+
+sala de reunion red: gerencia
+SUM red: gerencia
+atencion al publico red: administracion
+
+
+
+switch piso 10
+
+port 0/1 a pc depto de sistemas
+port 1/1 a pc directorio
+port 2/1 a pc depto de prensa
+port 3/1 a pc depto de diseño
+port 4/1 a pc depto de impresion
+port 5/1 a pc depto de contabilidad
+port 6/1 a pc 
+port 7/1 a router
+
+switch piso 7
+port 0/1 a pc Gerentes
+port 1/1 a pc depto de marketing
+port 2/1 a pc de Facturacion y Liquidacion
+port 3/1 a pc depto RRHH
+port 6/1 a router
+
+switch piso 2
+
+port 0/1 a pc depto de mantenimiento
+port 1/1 a pc depto de compras
+port 2/1 a router
+
+switch piso 1
+
+port 0/1 a pc sala de reuniones
+port 1/1 a pc SUM
+port 2/1 a pc atencion al publico 
+port 3/1 a router
+
+
+router CABA
+port 0/1 Piso 10
+port 1/1 Piso 7
+port 2/1 Piso 2
+port 3/1 Piso 1
