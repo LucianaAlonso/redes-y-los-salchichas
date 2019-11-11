@@ -62,8 +62,9 @@ port 2/1 a pc atencion al publico
 port 3/1 a router
 
 
-router CABA
+switch-router CABA
 port 0/1 Piso 10
 port 1/1 Piso 7
 port 2/1 Piso 2
 port 3/1 Piso 1
+port 4/1 router
