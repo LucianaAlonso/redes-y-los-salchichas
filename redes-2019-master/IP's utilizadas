@@ -49,8 +49,8 @@ PUNTO A PUNTO ENTRE MENDOZA Y SAN JUAN
 RANGOS DE IP
  (192.168.145.128/30 - 192.168.145.131/30)
  
-router mmendoza 192.168.145.129/30
-router san juan 192.168.145.130/30
+router mmendoza 192.168.145.0/30
+router san juan 192.168.145.3/30
 
 
 
@@ -69,6 +69,14 @@ RANGOS DE IP
 
 router cuyo 192.168.145.137
 router mendoza 192.168.145.138
+
+PUNTO A PUNTO ENTRE SAN JUAN Y BS AS
+
+RANGOS DE IP
+ (192.168.145.144/30 - 192.168.145.147/30)
+
+router san juan 192.168.145.145
+router bsas 192.168.145.146
 
 
 
