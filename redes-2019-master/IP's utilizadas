@@ -81,5 +81,11 @@ ver bien cuantas ips deberia poder asignar el DHCP
 router CABA 172.29.0.1
 DHCP CABA 172.29.0.2
 
+PUNTO A PUNTO ENTRE CABA Y MENDOZA
 
+RANGOS DE IP
+ (192.168.145.140/30 - 192.168.145.143/30)
+
+router caba 192.168.145.141
+router mendoza 192.168.145.142
 
