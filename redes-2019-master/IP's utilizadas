@@ -71,3 +71,15 @@ router cuyo 192.168.145.137
 router mendoza 192.168.145.138
 
 
+
+------------------ Aqui esta experimentado Lukitash El turron ----------
+
+Submask de CABA es 255.255.254.0
+
+ver bien cuantas ips deberia poder asignar el DHCP
+
+router CABA 172.29.0.1
+DHCP CABA 172.29.0.2
+
+
+
