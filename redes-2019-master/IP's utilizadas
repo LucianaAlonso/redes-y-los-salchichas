@@ -79,6 +79,13 @@ router san juan 192.168.145.145
 router bsas 192.168.145.146
 
 
+PUNTO A PUNTO INTERNET Y BUENOS AIRES
+
+RANGOS DE IP
+ ( 205.32.130.0/30 - 205.32.130.3/30)
+
+router internet 205.32.130.1
+router caba 205.32.130.2
 
 ------------------ Aqui esta experimentado Lukitash El turron ----------
 
