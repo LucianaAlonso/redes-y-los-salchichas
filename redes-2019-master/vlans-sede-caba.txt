@@ -68,3 +68,83 @@ port 1/1 Piso 7
 port 2/1 Piso 2
 port 3/1 Piso 1
 port 4/1 router
+
+default 172.29.0.1
+
+bloque 172.29.0.0/23
+
+vlan Administracion:
+
+Facturacion y Liquidaciones(12), Departamente de contabilidad(10),
+atencion al publico(20), departamento de rrhh(4), y departamento de compras(10)
+
+cantidad de ips necesarias 56
+
+vlan Logistica:
+
+Departamento de prensa(15), departamento de diseño(5), departamento de impresion(15)
+y departamento de mantenimiento(10)
+
+cantidad de ips necesarias 45
+
+vlan gerencia:
+Directorio(10), gerentes(6), Departaento de Marketing(5), sala de reuniones(8) y SUM(60)
+
+cantidad de ips necesarias 89
+
+vlan de Sistemas y centro de datos:
+
+Sistames y centro de datos(130)
+
+cantidad de ips necesarias 
+
+gerencia/26
+logistica/24
+administracion/24
+sistemas/25
+
+
+
+sistemas
+172.29.0.2/24
+router(Ver de cambiar)
+
+gerencia
+172.29 
+
+
+vlan 2 
+Sistemas
+piso 1 n/n
+piso 2 n/n
+piso 7 n/n
+piso 10 Giga 0/1
+
+vlan 3 
+Gerencia 
+piso 1 port 0/1, port 1/1 
+piso 2 n/n
+piso 7 port 0/1, port 1/1
+piso 10 port 1/1
+
+vlan 4 
+Logistica 
+piso 1 n/n
+piso 2 port 0/1
+piso 7 n/n
+piso 10 port 2/1, port 3/1, port 4/1
+
+vlan 5
+Admin
+piso 1 port 2/1
+piso 2 port 1/1
+piso 7 port 2/1, port 3/1
+piso 10 port 5/1
+
+
+
+
+
+
+
+
