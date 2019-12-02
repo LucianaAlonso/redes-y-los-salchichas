@@ -94,7 +94,7 @@ cantidad de ips necesarias 89
 
 vlan de Sistemas y centro de datos:
 
-Sistames y centro de datos(130)
+Sistemas y centro de datos(130)
 
 cantidad de ips necesarias 
 
