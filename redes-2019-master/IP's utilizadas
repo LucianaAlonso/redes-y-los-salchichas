@@ -19,7 +19,7 @@ Web Server Prensa (HTTPS) --> 192.168.145.72
 Intranet Server --> 192.168.145.73
 PC del sector Administrativo --> 192.168.145.74
 Router wireless --> 192.168.145.75
-dns depto sistemas-primario --> 192.168.145.69
+dns depto sistemas-primario --> 192.168.145.69 / publica : 200.23.11.1
 dns depto sistemas-secundario --> 192.168.145.76
 dns depto prensa-primario --> 192.168.145.77
 dns depto prensa-secundario --> 192.168.145.78
